@@ -36,8 +36,13 @@
 
 <p>Provides an IANA time zone identifier from latitude and longitude coordinates.</p>
 
-<pre><code>PM&gt; Install-Package GeoTimeZone
-</code></pre>
+<div class="highlight highlight-source-powershell"><pre>PM<span class="pl-k">&gt;</span> <span class="pl-c1">Install-Package</span> GeoTimeZone</pre></div>
+
+<p>Example:</p>
+
+<div class="highlight highlight-source-cs"><pre><span class="pl-k">string</span> tz = TimeZoneLookup.GetTimeZone(<span class="pl-c1">50.4372</span>, -<span class="pl-c1">3.5559</span>).Result;  <span class="pl-c">// "Europe/London"</span></pre></div>
+
+<p>Note: this uses the public domain time zone border map data from <a href="http://efele.net/maps/tz/world/">http://efele.net/maps/tz/world/</a> which may or may not align with your worldview.  Use at your own risk.</p>
       </section>
     </div>
 
@@ -45,7 +50,7 @@
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         <p class="copyright">GeoTimeZone maintained by <a href="https://github.com/mj1856">mj1856</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
 
