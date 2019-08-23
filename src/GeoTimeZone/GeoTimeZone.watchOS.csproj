@@ -7,7 +7,7 @@
     <ProjectTypeGuids>{FC940695-DFE0-4552-9F25-99AF4A5619A1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>GeoTimeZone</RootNamespace>
-    <AssemblyName>GeoTimeZone</AssemblyName>
+    <AssemblyName>GeoTimeZone.watchOS</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -46,7 +46,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.WatchOS" />
   </ItemGroup>
